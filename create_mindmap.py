@@ -1,6 +1,4 @@
 import ollama
-import json
-
 
 def generate_markmap(text):
    # Initialize the Ollama client

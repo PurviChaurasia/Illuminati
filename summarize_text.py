@@ -55,11 +55,4 @@ def summarize_text(text):
        print(f"Error: HTTP {response.status_code} - {response.text}")
        return None
 
-'''
-url = "https://research.google/blog/chain-of-table-evolving-tables-in-the-reasoning-chain-for-table-understanding/"
-text_to_summarize=preprocess_text(scrape_text(url))
 
-summary_response = summarize_text(text_to_summarize)
-print("Summary:")
-print(summary_response)
-'''
